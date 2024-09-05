@@ -90,7 +90,7 @@ function App() {
 						/>
 						<p className="text-lg font-medium">{integerFormatter(convertedValues.USDT)} IRT</p>
 					</div>
-					<p className="ml-2 text-sm font-signika">{integerFormatter(formValues.USDT)} USDT</p>
+					<p className="ml-2 text-sm font-signika">{integerFormatter(formValues.USDT)} IRT</p>
 				</div>
 				<div className="flex flex-col gap-1">
 					<label
@@ -110,7 +110,7 @@ function App() {
 						/>
 						<p className="text-lg font-medium">{integerFormatter(convertedValues.WMZ)} IRT</p>
 					</div>
-					<p className="ml-2 text-sm font-signika">{integerFormatter(formValues.WMZ)} WMZ</p>
+					<p className="ml-2 text-sm font-signika">{integerFormatter(formValues.WMZ)} IRT</p>
 				</div>
 			</div>
 		</form>
